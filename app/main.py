@@ -11,7 +11,7 @@ def read_root():
 #TODO Fix recitation hours to be correct for this semester.
 RECITATION_HOURS = {"a": "09:00~09:50", "b": "10:00~10:50",
                     "c": "11:00~11:50", "d": "12:00~12:50"}
-MICROSERVICE_LINK = "http://17313-teachers2.s3d.cmu.edu:8080/section_info/"
+MICROSERVICE_LINK = "http://17313-teachers.s3d.cmu.edu:8080/section_info/"
 
 
 @app.get("/section_info/{section_id}")
